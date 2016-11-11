@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="feat_1">
+	<name>KerbinSide Locations</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark id="feat_2">
+		<name>Arakebo Island</name>
+		<description>This clinic is a small facility located at the base of the observatory&apos;s causeway. It focuses on rehabilitation of kerbonauts after long missions in space.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_0">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>179.7728,8.360898000000001,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_3">
+		<name>Ben Bay</name>
+		<description>When Kash Kerbin was denied multiple times permission to construct his company&apos;s headquarters on KSC&apos;s beach, he found a nearby bay, excavated that beach, built a huge subterranean facility there and then stuck a tower on top of it. Welcome to KashCorp.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_1">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>295.8152,13.2242,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_4">
+		<name>Black Krags</name>
+		<description>A short, brick runway located not too far from KSC, near the coast, beside a small mountain range known as the Black Krags. This base is primarily used for basic flight training.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_2">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>272.3123,11.32069,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_5">
+		<name>Coaler Crater</name>
+		<description>A short brick runway near the coast, surrounded by small lakes. Provides services for the nearby Coaler Tracking Station.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_3">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>261.0945,35.4291,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_6">
+		<name>Deadkerbal Pit</name>
+		<description>Located in a range of extinct volcanoes on the edge of Kerbin&apos;s Greater Desert, the appropriately named Deadkerbal Pit is the site of development of a new rocket launching facility where a number of fatal accidents has delayed construction indefinitely.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_4">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>232.4043,14.80408,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_7">
+		<name>Donby Hole</name>
+		<description>This strange natural formation continues to be a centre of geological study whilst conspiracy theorists continue to claim there&apos;s nothing at all natural about it.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_5">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>70.40235,13.72265,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_8">
+		<name>Dull Spot</name>
+		<description>A multi-launch base deep in the Northern hemisphere in the middle of the Great Plains. Close to the Blackish Inland Sea and the Whiteish Peaks.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_6">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>187.5524,63.88354,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_9">
+		<name>Dundard&apos;s Edge Runway</name>
+		<description>With the increased popularity of this location for advanced flight operations along the nearby river canyon, it didn&apos;t take long for a runway to be built to alleviate the need for VTOL launches from the base&apos;s helipad.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_7">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>227.997128715646,44.2745305491272,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_10">
+		<name>Dundard&apos;s Edge</name>
+		<description>A training facility for kerbonauts to learn mountain climbing and white river rafting.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_8">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>227.9586,44.26023,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_11">
+		<name>Everkrest</name>
+		<description>When a small group of kerbals raised the ludicrous opinion that the best way to do high-altitude experiments was to sit safely on top of a mountain, it was hardly the most popular idea at KSC. Luckily for the troublemakers, the solution to this problem was to give them exactly what they wanted.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_9">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>71.66330000000001,-14.12746,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_12">
+		<name>Goldpool</name>
+		<description>A multi-launch base located on beautifully clear ocean waters. The tropical coastline can produce stormy launch conditions.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_10">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>17.36675,-1.109713,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_13">
+		<name>Green Coast</name>
+		<description>KSC&apos;s administrators are denying the existence of this runway due to the related paperwork disappearing. Except Mortimer, who continues to chase the records. Gene hasn&apos;t updated the database with his copy and refuses to let the administrators have it.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_11">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>179.094,-3.491196,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_14">
+		<name>Green Peaks</name>
+		<description>A research centre dedicated to botanical studies. Several rare plants with important medicinal properties grow naturally in this area.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_12">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>74.95473,-0.7381662,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_15">
+		<name>Guardian&apos;s Basin</name>
+		<description>A small helibase located in one of Kerbin&apos;s more beautiful natural regions.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_13">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>309.0936,42.64906,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_16">
+		<name>Hanbert Cape</name>
+		<description>The great explorer Hanbert Kerman found this remote bay after a particularly long expedition looking for a packet of lost snacks. He still hasn&apos;t found the snacks.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_14">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>219.7454,-22.61177,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_17">
+		<name>Jeb&apos;s Island Resort</name>
+		<description>When the space agency insisted on their super-star kerbonaut getting a hefty raise and a bonus for all his efforts getting the space program off the ground (pun intended), Jebediah Kerman invested wisely in establishing a retreat on an island near KSC that he could escape to when media attention got too much.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_15">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>297.6861,6.84058,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_18">
+		<name>Kerbin&apos;s Bottom</name>
+		<description>A base on the small island called Kerbin&apos;s Bottom, close to the southern arctic region. A cold and barren place with a small research centre and radio telescope.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_16">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>170.5781,-50.49029,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_19">
+		<name>Kerbin&apos;s Heart Science Centre</name>
+		<description>In the heydays of exploration of Kerbin, discovering the source of The Cut, one of Kerbin&apos;s more mysterious rivers, was an endeavour many pursued. Mapping of the subterranean end of the water-way continues and scientific discoveries continue to amaze and bemuse with surprising regularity.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_17">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>28.59504,-6.726014,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_20">
+		<name>Kerman Lake</name>
+		<description>A privately owned corporate development zone with a large airbase. The airbase is available for a variety of aerospace operations and the KSC is given good discounts for any missions slated to use it.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_18">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>296.4742,11.27818,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_21">
+		<name>Area 110011</name>
+		<description>Area 110011 is a large compound located in the middle of Kerbin&apos;s Greater Desert, not far from the KKVLA. It consists of several extra large hangers, a testing and research facility, and the star of the show: a super mega enormous runway.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_19">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>227.9027,10.64686,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_22">
+		<name>KSC 2 Spaceplane Base</name>
+		<description>KSC 2, often referred to as &apos;The Old KSC&apos;, is an outdated space centre originally built to be used as a primary launch facility. It was demoted to secondary status when its big brother, the Kerbal Space Centre was built. This complex now houses many facilities intended for support of space-plane operations, including newly rebuilt runways.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_20">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>213.5595,20.64865,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_23">
+		<name>KSC Island</name>
+		<description>A recently constructed boat launch gives KSC Island more purpose. Don&apos;t launch planes or rockets off it. Or you can but you really shouldn&apos;t.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_21">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>287.9832,-1.522097,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_24">
+		<name>KSC Island Airstrip</name>
+		<description>A poorly maintained airfield on a small island near the KSC. Once used as a pilot training facility, the airbase was abandoned when the canteen ran out of snacks.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_22">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>288.147,-1.515853,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_25">
+		<name>KSC VAB Helipad</name>
+		<description>A helipad atop the Vehicle Assembly Building at the Kerbal Space Centre.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_23">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>285.3801,-0.09674856,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_26">
+		<description>No description available.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_24">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>0,0,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_27">
+		<name>KSC VAB Helipad</name>
+		<description>A helipad atop the Vehicle Assembly Building at the Kerbal Space Centre.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_25">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>285.3801,-0.09674856,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_28">
+		<name>Lake Dermal</name>
+		<description>Lake Dermal&apos;s runway is designed to accommodate medium weight aircraft and is primarily used for take-off due to its relatively short width but impressive stretch.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_26">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>239.0602,22.70452,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_29">
+		<name>Lodnie Isles</name>
+		<description>This small airbase is rapidly growing a reputation for recon, recovery and rescue operations, a reliable runway and the over-use of the letter r in base records and regulations.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_27">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>14.19844,29.73803,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_30">
+		<name>Lushlands</name>
+		<description>Many sceptical kerbals questioned the wisdom of shipping thousands of tonnes of concrete deep into farming country miles from anywhere, but the tracking centre has proven invaluable in recent missions.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_28">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>26.61129,2.156698,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_31">
+		<name>Mount Snowey</name>
+		<description>A complex high up in the Blizzard Mountain Range, atop Mount Snowey, one of the taller peaks. Features include a helipad, dedicated launch centre, tracking station, kerbonaut training facility, VAB built in to the mountain and a launch pad.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_29">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>281.8346,20.41318,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_32">
+		<name>North Pole Bio-Dome</name>
+		<description>This dome is the largest Kerbin-based botanical and hydroponics experiment constructed to-date. Scientists here strive to discover better ways of producing oxygen and snacks in alien environments.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_30">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>282.3505,79.55744,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_33">
+		<name>Polar Research Centre</name>
+		<description>This airbase is located very close to Kerbin&apos;s North Pole. The geographically strategic position allows for very intriguing flight profiles. The runway here is designed for launching small planes oriented to research, such as surveillance and weather analysis.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_31">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>282.5903,79.57256,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_34">
+		<name>Sanctuary Mouth</name>
+		<description>A busy multi-launch base located on the mouth of the Sanctuary River, close to its source in the large snowey Icefingers Mountain Range.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_32">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>320.0558,23.68121,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_35">
+		<description>Acting as a freight and personnel stop-off, this facility is a remote helibase on a small, sandy island between two of Kerbin&apos;s larger land-masses.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_33">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>352.9952,-3.233412,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_36">
+		<name>Sea&apos;s End</name>
+		<description>This multi-purpose launch facility is the prototype of a now commonly used facility designed to handle helicopters, aeroplanes and rockets. So far Sea&apos;s End&apos;s operations record has been faultless and the base personnel are keen to keep it that way.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_34">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>79.79356,-34.11739,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_37">
+		<name>South Hope</name>
+		<description>A new runway design being tested in the South Hope Islands.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_35">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>16.98757,-49.77557000000001,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_38">
+		<name>South Point</name>
+		<description>Construction of South Point&apos;s airfield has only just begun and currently it consists of little more than a rough brick runway and a radar station.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_36">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>166.4277,-17.82059,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_39">
+		<name>South Pole Station</name>
+		<description>In the freezing wasteland of the arctic South, kerbal-kind is busy researching snow and training kerbonauts to survive in extreme environments.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_37">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>142.7313,-84.73943,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_40">
+		<name>South Pole Research Station</name>
+		<description>The South Pole provides the perfect hostile environment for researching survival and activities in dangerous places.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_38">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>142.6664,-84.73068000000001,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_41">
+		<name>The Shelf</name>
+		<description>A short brick runway located on a spit between two large bays. In the far South, this base operates primarily as a light-freight relay station for the arctic region.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_39">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>197.9046,-53.81633,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="feat_42">
+		<name>Valentina&apos;s Landing</name>
+		<description>An airfield located close to Valentina&apos;s hometown, recently dedicated to her.</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point id="geom_40">
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>0,0,1</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
