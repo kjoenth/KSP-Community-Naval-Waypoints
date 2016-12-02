@@ -2,37 +2,279 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Nav Points.kml</name>
+	<Style id="sh_purple-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>2</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_purple-diamond0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_purple-diamond1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_purple-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_purple-diamond1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_purple-diamond20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_purple-diamond5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_purple-diamond">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_purple-diamond</styleUrl>
+			<styleUrl>#sn_purple-diamond4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_purple-diamond2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_purple-diamond00">
+	<Style id="sh_red-diamond0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_purple-diamond2">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-diamond1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_purple-diamond0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_purple-diamond3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_purple-diamond0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_purple-diamond0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_purple-diamond0</styleUrl>
+			<styleUrl>#sh_purple-diamond4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_H">
+	<StyleMap id="msn_red-diamond0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_purple-diamond4">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/H.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
 		<ListStyle>
 			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/H-lv.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_purple-diamond2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_purple-diamond1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_purple-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_purple-diamond00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_purple-diamond10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_purple-diamond10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_purple-diamond10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -53,221 +295,19 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_C">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/C-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-diamond">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>3</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_C">
+	<StyleMap id="msn_purple-diamond3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_C</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_C</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_purple-diamond1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>3</scale>
-		</LabelStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_H">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/H.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/H-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_G">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/G.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/G-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-diamond">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-diamond</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-diamond</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_B">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_B</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_B</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_H">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_H</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_H</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_purple-diamond2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_purple-diamond3</styleUrl>
+			<styleUrl>#sn_purple-diamond2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_purple-diamond</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_B">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/B.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/B-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_D">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_D</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_D</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_A">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/A.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/A-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_A">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_A</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_A</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_F">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_F</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_F</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_D">
+	<Style id="sn_purple-diamond10">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/D.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/D-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_purple-diamond0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-diamond">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
 			</Icon>
@@ -282,89 +322,19 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_B">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/B.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/B-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_G">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/G.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/G-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_C">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/C.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/C-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_F">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/F.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/F-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_E">
+	<StyleMap id="msn_purple-diamond4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_E</styleUrl>
+			<styleUrl>#sn_purple-diamond</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_E</styleUrl>
+			<styleUrl>#sh_purple-diamond1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_purple-diamond0">
+	<Style id="sn_purple-diamond2">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_purple-diamond2">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
 			</Icon>
@@ -376,34 +346,6 @@
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_A">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/A.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/A-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_E">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/E.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/E-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -415,32 +357,38 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LabelStyle>
-			<scale>3</scale>
-		</LabelStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_F">
+	<StyleMap id="msn_red-diamond1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-diamond0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/F.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
 			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/F-lv.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_purple-diamond">
+	<Style id="sn_purple-diamond4">
 		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
 			</Icon>
@@ -455,27 +403,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_purple-diamond0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_purple-diamond1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_purple-diamond1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_G">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_G</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_G</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_purple-diamond">
+	<Style id="sn_purple-diamond20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -492,31 +420,44 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_D">
+	<StyleMap id="msn_purple-diamond5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_purple-diamond3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_purple-diamond3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_purple-diamond5">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/D.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<LabelStyle>
+			<scale>2</scale>
+		</LabelStyle>
 		<ListStyle>
 			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/D-lv.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-diamond-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_E">
+	<Style id="sn_red-diamond1">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/E.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
 			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/E-lv.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -524,9 +465,111 @@
 		<name>Nav Points</name>
 		<Placemark>
 			<name>KSC</name>
-			<styleUrl>#msn_purple-diamond00</styleUrl>
+			<LookAt>
+				<longitude>-74.39</longitude>
+				<latitude>-0.0435</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+			</LookAt>
+			<styleUrl>#msn_purple-diamond5</styleUrl>
 			<Point>
 				<coordinates>-74.39,-0.0435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SE Corner of KSC Peninsula</name>
+			<LookAt>
+				<longitude>-74.320291</longitude>
+				<latitude>-0.313812</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+			</LookAt>
+			<styleUrl>#msn_red-diamond1</styleUrl>
+			<Point>
+				<coordinates>-74.320291,-0.313812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clearwater Corner</name>
+			<LookAt>
+				<longitude>-74.75694444444444</longitude>
+				<latitude>-0.9716666666666667</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+			</LookAt>
+			<styleUrl>#msn_red-diamond1</styleUrl>
+			<Point>
+				<coordinates>-74.75694444444444,-0.9716666666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sandpile</name>
+			<LookAt>
+				<longitude>-75.945278</longitude>
+				<latitude>-2.371389</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+			</LookAt>
+			<styleUrl>#msn_red-diamond1</styleUrl>
+			<Point>
+				<coordinates>-75.945278,-2.371389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wencee&apos;s Slope</name>
+			<LookAt>
+				<longitude>-79.331942</longitude>
+				<latitude>-5.317974</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.331942,-5.317974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Leg</name>
+			<LookAt>
+				<longitude>-83.32773899999999</longitude>
+				<latitude>-8.850752</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-83.32773899999999,-8.850752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cape Vista</name>
+			<LookAt>
+				<longitude>-86.028075</longitude>
+				<latitude>-9.516360000000001</latitude>
+				<altitude>4340.463353721379</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000000</range>
+			</LookAt>
+			<styleUrl>#msn_red-diamond1</styleUrl>
+			<Point>
+				<coordinates>-86.028075,-9.516360000000001,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -537,52 +580,18 @@
 				<altitude>0</altitude>
 				<heading>-5.782974536565748</heading>
 				<tilt>0</tilt>
-				<range>740412.3760151282</range>
+				<range>740412</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_purple-diamond</styleUrl>
+			<styleUrl>#msn_purple-diamond3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-72.32679666345607,-3.963453940432159,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Nye Island</name>
-			<LookAt>
-				<longitude>109.5789224861881</longitude>
-				<latitude>3.446018296123185</latitude>
-				<altitude>0</altitude>
-				<heading>21.83068982931533</heading>
-				<tilt>0</tilt>
-				<range>1601135.846517758</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_purple-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>108.5903133751619,5.315380956441655,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Hanbert Cape</name>
-			<LookAt>
-				<longitude>-141.3805104574904</longitude>
-				<latitude>-24.64640950800472</latitude>
-				<altitude>0</altitude>
-				<heading>13.93008934119876</heading>
-				<tilt>0</tilt>
-				<range>1632095.267477331</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_purple-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-141.895729864866,-23.41063338738552,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Emoji Deep</name>
-			<styleUrl>#msn_purple-diamond</styleUrl>
+			<styleUrl>#msn_purple-diamond1</styleUrl>
 			<Point>
 				<coordinates>-83.1116,-28.9055,0</coordinates>
 			</Point>
@@ -595,80 +604,35 @@
 				<altitude>0</altitude>
 				<heading>0.121039001474556</heading>
 				<tilt>0</tilt>
-				<range>419230.6500421976</range>
+				<range>1000000</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-diamond</styleUrl>
+			<styleUrl>#msn_purple-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-124.0531514710539,-21.50920986749781,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>SE Corner of KSC Peninsula</name>
-			<styleUrl>#msn_A</styleUrl>
-			<Point>
-				<coordinates>-74.320291,-0.313812,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Clearwater Corner</name>
-			<styleUrl>#msn_B</styleUrl>
-			<Point>
-				<coordinates>-74.75694444444444,-0.9716666666666667,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Sandpile</name>
-			<styleUrl>#msn_C</styleUrl>
-			<Point>
-				<coordinates>-75.945278,-2.371389,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Wencee&apos;s Slope</name>
+			<name>Hanbert&apos;s Cape</name>
 			<LookAt>
-				<longitude>-76.11736406602144</longitude>
-				<latitude>-6.964003094476916</latitude>
+				<longitude>-141.3805104574904</longitude>
+				<latitude>-24.64640950800472</latitude>
 				<altitude>0</altitude>
-				<heading>-22.50180698104563</heading>
+				<heading>13.93008934119876</heading>
 				<tilt>0</tilt>
-				<range>1308588.541437089</range>
+				<range>1632095.267477331</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_D</styleUrl>
+			<styleUrl>#msn_purple-diamond00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-79.33194231131995,-5.317973589978938,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Leg</name>
-			<LookAt>
-				<longitude>-75.45747813989813</longitude>
-				<latitude>-7.32791685875934</latitude>
-				<altitude>0</altitude>
-				<heading>-22.58390088570586</heading>
-				<tilt>0</tilt>
-				<range>1829918.314760688</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_E</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-83.32773899999999,-8.850752,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Cape Vista</name>
-			<styleUrl>#msn_F</styleUrl>
-			<Point>
-				<coordinates>-86.028075,-9.516360000000001,0</coordinates>
+				<coordinates>-141.895729864866,-23.41063338738552,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Seanth&apos;s Landing (south shore)</name>
-			<styleUrl>#msn_G</styleUrl>
+			<styleUrl>#msn_red-diamond0</styleUrl>
 			<Point>
 				<coordinates>-124.095829,-22.309391,0</coordinates>
 			</Point>
@@ -684,10 +648,129 @@
 				<range>28631.76850195161</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_H</styleUrl>
+			<styleUrl>#msn_red-diamond0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-124.355854,-20.775962,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hanbert Cape Naval Base</name>
+			<Camera>
+				<longitude>-143.4263941435134</longitude>
+				<latitude>-25.40859152068096</latitude>
+				<altitude>1713172.308177331</altitude>
+				<heading>53.32133165977895</heading>
+				<tilt>0.02425649805691906</tilt>
+				<roll>46.16067982852736</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-diamond0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-141.749706,-24.635768,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maybe Island</name>
+			<LookAt>
+				<longitude>-150.7465276030406</longitude>
+				<latitude>-22.22903361203181</latitude>
+				<altitude>0</altitude>
+				<heading>11.99657234917881</heading>
+				<tilt>0</tilt>
+				<range>2376082.191753478</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-144.256099,-24.573792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Olmost Point</name>
+			<LookAt>
+				<longitude>-149.7211555589115</longitude>
+				<latitude>-22.00099557282079</latitude>
+				<altitude>0</altitude>
+				<heading>-19.03331653260675</heading>
+				<tilt>0</tilt>
+				<range>1491237.149111672</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-153.289103,-21.270606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Olmost Shore</name>
+			<Camera>
+				<longitude>-153.8015049227722</longitude>
+				<latitude>-19.28314280820642</latitude>
+				<altitude>1883576.165454931</altitude>
+				<heading>118.958564338574</heading>
+				<tilt>0.01942242560611123</tilt>
+				<roll>113.2575648222806</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_purple-diamond</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-154.67982122092,-18.45947227187921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Olmost Beach</name>
+			<LookAt>
+				<longitude>-156.5851930502361</longitude>
+				<latitude>-20.47600234080356</latitude>
+				<altitude>0</altitude>
+				<heading>-16.45847850608942</heading>
+				<tilt>0</tilt>
+				<range>1490767.737151185</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-156.71257,-17.335498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Quarterbay</name>
+			<LookAt>
+				<longitude>-151.9407921613476</longitude>
+				<latitude>-18.44008690685632</latitude>
+				<altitude>0</altitude>
+				<heading>12.67481000992891</heading>
+				<tilt>0</tilt>
+				<range>2376699.003560027</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple-diamond0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-158.304707,-14.225317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nye Island</name>
+			<LookAt>
+				<longitude>109.5789224861881</longitude>
+				<latitude>3.446018296123185</latitude>
+				<altitude>0</altitude>
+				<heading>21.83068982931533</heading>
+				<tilt>0</tilt>
+				<range>1601136</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_purple-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>108.5903133751619,5.315380956441655,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
